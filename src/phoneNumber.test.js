@@ -29,6 +29,11 @@ test('Three', () => {
 
 test('Four', () => {
   const ph = phoneNumber('+27 1234 5678 ext 4');
+
+  expect(ph.originalText).toBe('+27 1234 5678 ext 4');
+  expect(ph.parsedNumber).toBe('+2712345678x4');
+  expect(ph.formatted.toNorthAmerican()).toBeFalsy();
+  expect(ph.formatted.toInternational()).toBe('+27 1234 5678 ext 4');
 });
 
 test('Five', () => {
