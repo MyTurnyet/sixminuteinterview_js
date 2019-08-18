@@ -54,7 +54,7 @@ const phoneNumber = (rawNumber) => {
   }
 
   return {
-    format: {
+    formatted: {
       toNorthAmerican: () => toNorthAmerican(parsedNumber),
       toInternational: null,
     },
