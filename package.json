@@ -1,0 +1,19 @@
+{
+  "name": "sixminuteinterview_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitstash.accretivetg.com/~paigew/sixminuteinterview_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
